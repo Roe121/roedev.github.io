@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav h2 i{
+    color: #ff5733;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background: #222 ;
+    z-index: 100000;
+    position: fixed;
+}
+
+.nav h2{
+    color: white;
+    font-size: 1.7rem;
+}
+
+#item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#item li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+#item li a{
+text-decoration: none;
+font-size: 1rem;
+text-transform: uppercase;
+color: white;
+transition: 0.3s;
+}
+
+#item li a:hover,
+#item .icon i:hover,
+.mid .btn a.simple:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+#item .icon i{
+ color: #fff ;
+ padding-right: 30px;
+ font-weight: bolder;
+}
+
+.back{
+    background-image: url(bg2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay {
+    background-color: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.70;
+}
+
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mid p{
+    font-size:1.3rem ;
+    color: #7f8c8d;
+    margin-bottom: 1.4rem;
+}
+
+.mid h2{
+    font-size:3rem ;
+    color: #fff;
+}
+
+.mid .btn{
+    margin-top: 2rem;
+}
+
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mid .btn a.simple{
+    color: white;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+}
+
+.mid .btn a.border{
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+    border-radius: 3px;
+}
+
+.mid .btn a.border:hover{
+    background-color: #fff;
+    border:  #fff;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 15rem ;
+    background-color: #171819;
+}
+
+.details h3,h6,h5{
+    color: white;
+}
+
+
+.details .two{
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}
+
+.details .one{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.details .one h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+
+.details .one h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+}
+
+.details .one p{
+    color: #666262;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.details .one a{
+    color: #fff;
+    background: #f13a11;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.details .one a:hover{
+    color: #f13a11;
+    background: #fff;
+}
+
+.details .one h6 span{
+    color: #f13a11;
+
+}
+
+.details .two h3{
+    font-size: 2.5rem;
+}
+
+.details .two h5{
+    font-size: 1.1rem;
+}
+
+.details .two p{
+    font-size: 1.1rem;
+    color: #666262;
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+
