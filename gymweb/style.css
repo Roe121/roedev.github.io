@@ -62,6 +62,13 @@
     font-weight: bolder;
 }
 
+#bar {
+    display: none;
+    color: #f13a11;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
 .back {
     background-image: url(bg2.jpg);
     width: 100%;
@@ -498,4 +505,547 @@ footer .right p {
 
 footer .right i {
     color: #f13a11;
+}
+
+
+
+/* responsive */
+
+
+@media screen and (max-width: 1042px) {
+
+    .nav h2 i {
+        color: #ff5733;
+    }
+    
+    
+    .nav {   
+        padding: 1rem 4.5rem;
+    }
+    
+    .nav h2 {
+        font-size: 1.4rem;
+    }
+    
+    #item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #item li {
+        padding-right: 30px;
+    }
+    
+    #item li a {
+        font-size: 0.9rem;
+    }
+    
+    #item .icon i {
+        padding-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+
+    .nav h2 i {
+        color: #ff5733;
+    }
+    
+    
+    .nav {
+        padding: 1rem 3rem;
+    }
+    
+    .nav h2 {
+        font-size: 1.6rem;
+    }
+    
+    #item {
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 10000000;
+        margin-top: 4.2rem;
+        transition: 0.5s;
+    }
+    
+    #item li {
+        padding-right: 0;
+        padding: 4px 0;
+    }
+    
+    #item li a {
+        font-size: 1.2rem;
+    }
+    
+    #item .icon {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #item .icon i {
+        padding: 0 15px 0 15px;
+    }
+    
+    #bar {
+        display: initial;
+        cursor: pointer;
+    }
+
+    .mid p {
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .mid h2 {
+        font-size: 2.5rem;
+    }
+    
+    .mid .btn {
+        margin-top: 1.5rem;
+    }
+    
+    .mid .btn a {
+       font-size: 0.9rem;
+    }
+    
+    .mid .btn a.simple {
+        padding: 0.7rem 1.4rem;
+    }
+    
+    .mid .btn a.border {
+        padding: 0.7rem 1.4rem;
+    }
+
+    .details {
+        padding: 6rem 7rem;
+    }
+
+    .details .two {
+        padding-left: 3.5rem;
+    }
+    
+    .details .one {
+        width: 50%;
+    }
+    
+    .details .one h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .details .one p {
+        font-size: 1.1rem;
+        padding-bottom: 2.2rem;
+    }
+    
+    .details .one a {
+       font-size: 0.9rem;
+    }
+
+    .details .one h6 span {
+        color: #f13a11;
+    
+    }
+    
+    .details .two h3 {
+        font-size: 2rem;
+    }
+    
+    .details .two h5 {
+        font-size: 1rem;
+    }
+    
+    .details .two p {
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .trainer {
+        padding: 6rem 7rem;
+    }
+    
+    
+    .trainer .about h2 {
+        font-size: 2rem;
+        padding-bottom: 1.4em;
+    }
+    
+    .trainer .about p {
+        font-size: 1rem;
+    }
+    
+    .trainer .people .team1 {
+        width: 48%;
+    }
+    
+    .trainer .people .team1 .name h4 {
+        font-size: 1.1rem;
+    }
+    
+    .trainer .people .team1 .name i,
+    .trainer .people .team1 .pro i {
+        font-size: 1.1rem;
+    }
+     
+    .trainer .people .team1 .name {
+        padding: 5px 15px 0 15px;
+    }
+    
+    .trainer .people .team1 .pro {
+        padding: 0 15px 5px 15px;
+    }
+    
+    .trainer .people .team1:hover {
+        transform: scale(1.05);
+    }
+
+    .class {
+        padding: 6rem;
+    }
+    
+    .class .paragraph {
+        font-size: 1.1rem;
+        padding-bottom: 4px;
+    }
+    
+    .class .h2 {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    
+    
+    .class .classMenu .team1 .img img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .class .classMenu .team1 .team-details {
+        padding-bottom: 7px;
+    }
+    
+    .class .classMenu .team1 .team-details .name {
+        padding: 5px 15px 0 15px;
+    }
+    
+    .class .classMenu .team1:hover {
+        transform: scale(1.05);
+    }
+    
+    .class .classMenu .team1 .team-details .name .nameDetails h4 {
+        font-size: 1.2rem;
+    }
+    
+    .class .classMenu .team1 .team-details .name .nameDetails p {
+        font-size: 1rem;
+    }
+    
+    .class .classMenu .team1 .team-details .name .nameDetails p span {
+        font-size: 1rem;
+    }
+    
+    .class .classMenu .team1 .team-details .name .num h5 {
+        font-size: 0.9rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    
+    .class .classMenu .team1 .pro p {
+        font-size: 1rem;
+    }
+    
+    .class .classMenu .team1 .pro {
+        padding: 15px 15 30px 15;
+    }
+
+    .contact {
+        padding: 4rem 8rem;
+    }
+
+    .contact .form input,
+    .contact .form textarea {
+          margin-bottom: 11px;
+         padding: 11px 0 11px 10px;
+        font-size: 0.9rem;
+
+    }
+ 
+    .contact .form button {
+        font-size: 0.9rem;
+        padding: 13px 0 13px 10px;
+    }
+
+    .contact strong {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .contact .map p {
+        font-size: 1rem;
+        margin-bottom: 12x;
+    }
+    
+    footer {
+
+        padding: 6em;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .back {
+        background-position: center;
+    }
+
+    .nav h2 {
+        font-size: 1.5rem;
+    }
+    
+
+    .mid p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .mid h2 {
+        font-size: 2.1rem;
+    }
+    
+    .mid .btn {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mid .btn a.simple {
+        padding: 0.7rem 1.4rem;
+        margin-bottom: 7px;
+    }
+
+    .details {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details .two {
+        padding-left: 0;
+        border-left: 0;
+        border-top: 1px solid #666262;
+        width: 70%;
+        margin-top: 1.7rem;
+        padding-top: 1.7rem;
+    }
+    
+    .details .one {
+        width: 70%;
+    }
+    
+    
+    .details .one a {
+       font-size: 1rem;
+    }
+
+
+    .trainer {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .trainer .about  {
+        width: 70%;
+        margin-bottom: 1.7rem;
+    }
+    
+    .trainer .people {
+        width: 70%;
+    }
+    
+
+    .class {
+        padding: 6rem;
+    }
+
+    .class .classMenu {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .class .classMenu .team1  {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    
+
+    .contact {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact .form input,
+    .contact .form textarea {
+          margin-bottom: 11px;
+         padding: 11px 0 11px 10px;
+        font-size: 0.9rem;
+
+    }
+ 
+    .contact .form button {
+        font-size: 0.9rem;
+        padding: 13px 0 13px 10px;
+    }
+
+    .contact strong {
+        font-size: 2.5rem;
+    }
+
+    .contact .map p {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .contact .form {
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact .map {
+
+        width: 60%;
+    }
+    
+    footer {
+
+        padding: 5em 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .left {
+        text-align: center;
+    }
+
+
+    footer .right {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 496px) {
+
+    .mid p {
+        margin-bottom: 0.8rem;
+    }
+    
+    .mid h2 {
+        font-size: 1.8rem;
+    }
+    
+    .mid .btn {
+        margin-top: 0.7rem;
+
+    }
+    
+
+    .details {
+        padding: 4rem 1rem;
+    }
+
+    .details .two {
+        width: 100%;
+    }
+    
+    .details .one {
+        width: 100%;
+    }
+    
+    .trainer {
+        padding: 4rem 1rem;
+    }
+
+    .trainer .about  {
+        width: 100%;
+    }
+    
+    .trainer .people {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .trainer .people .team1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+    .class {
+        padding: 4rem 1rem;
+    }
+
+
+    .class .classMenu .team1  {
+        width: 100%;
+    }
+    
+
+    .contact {
+        padding: 4rem 1rem;
+    }
+
+    .contact .form input,
+    .contact .form textarea {
+          margin-bottom: 11px;
+         padding: 11px 0 11px 10px;
+        font-size: 0.9rem;
+
+    }
+ 
+    .contact .form button {
+        font-size: 0.9rem;
+        padding: 13px 0 13px 10px;
+    }
+
+    .contact strong {
+        font-size: 2.5rem;
+    }
+
+    .contact .map p {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .contact .form {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact .map {
+        width: 100%;
+    }
+    
+
 }
