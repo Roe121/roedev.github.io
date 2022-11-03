@@ -10,15 +10,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <div class="nav">
       <h2>THRIVE GYM</h2>
       <ul id="item">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Classes</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#class">Classes</a></li>
+        <li><a href="#contact">Contact</a></li>
 
         <div class="icon">
           <i class="fa fa-facebook"></i>
@@ -30,7 +33,7 @@
       <i id="bar" class="fa fa-bars"></i>
     </div>
 
-    <div class="back">
+    <div id="home" class="back">
       <div class="overlay"></div>
     </div>
 
@@ -44,14 +47,14 @@
     </div>
 
     <div class="details">
-      <div class="one">
+      <div class="one"  data-aos="fade-up">
         <h3>New to THRIVE GYM ?</h3>
         <h6>Benefit of 20% <span>REDUCTION</span> for your 2 first months!</h6>
         <p>Join our THRIVE family and let the grind begin!</p>
         <a href="#">Become a member now</a>
       </div>
 
-      <div class="two">
+      <div class="two"  data-aos="fade-up">
         <h3>Working hours</h3>
         <br />
         <h5>Sunday : Closed</h5>
@@ -63,8 +66,8 @@
       </div>
     </div>
 
-    <div class="trainer">
-      <div class="about">
+    <div id="about" class="trainer">
+      <div class="about" data-aos="fade-up">
         <h2>Hello, We are THRIVE Gym!</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in
@@ -78,7 +81,7 @@
           odio, commodo ut tellus quis.
         </p>
       </div>
-      <div class="people">
+      <div class="people" data-aos="fade-up">
         <div class="team1">
           <div class="img">
             <img src="team1.jpg" alt="" />
@@ -113,12 +116,12 @@
       </div>
     </div>
 
-    <div class="class">
-      <p class="paragraph">Get a Perfect Body</p>
-      <h2 class="h2">Our Training Classes</h2>
+    <div id="class" class="class" >
+      <p class="paragraph" data-aos="fade-up">Get a Perfect Body</p>
+      <h2 class="h2" data-aos="fade-up">Our Training Classes</h2>
 
       <div class="classMenu">
-        <div class="team1">
+        <div class="team1" data-aos="fade-up">
           <div class="img">
             <img src="class1.jpg" alt="" />
           </div>
@@ -141,7 +144,7 @@
           </div>
         </div>
 
-        <div class="team1">
+        <div class="team1" data-aos="fade-up">
           <div class="img">
             <img src="class2.jpg" alt="" />
           </div>
@@ -164,7 +167,7 @@
           </div>
         </div>
 
-        <div class="team1">
+        <div class="team1" data-aos="fade-up">
           <div class="img">
             <img src="class3.jpg" alt="" />
           </div>
@@ -189,8 +192,8 @@
       </div>
     </div>
 
-    <section class="contact">
-     <div class="form">
+    <section id="contact" class="contact">
+     <div class="form" data-aos="fade-up">
         <strong> Feel free to ask anything </strong>
         <input type="text" placeholder="Name">
         <input type="email" placeholder="Email">
@@ -198,7 +201,7 @@
         <button>Send Message</button>
       </div>
 
-     <div class="map">
+     <div class="map" data-aos="fade-up">
        <strong>Where you can find us</strong>
        <p><i class="fa fa-map-marker"></i> 120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil </p>
        <div class="line"></div>
@@ -226,6 +229,15 @@
     
 
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1200,
+    });
+  </script>
+    
 
   </body>
 </html>
