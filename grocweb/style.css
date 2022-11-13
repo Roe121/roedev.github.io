@@ -816,7 +816,28 @@ footer .c1 .logo i{
     #h1 .logo {
        margin-bottom: 1rem;
     }
+    #deal .content .box {
+        width: 4rem;
+        text-align: center;
+        border: 0.1rem solid rgba(0,0,0,.3);
+    }
+    #deal .content .box h3 {
+        font-size: 1.5rem;
+        padding: 0.2rem 0.4rem;
+        width: 100%;
+    }
 
+    #deal .content .box span {
+        background-color: var(--black);
+        font-size: 1rem;
+        padding: 0.2rem;
+        color: white;
+        display: block;
+    }
+
+    #deal button {
+        padding: 0.5rem;
+    }
 }
 
 
