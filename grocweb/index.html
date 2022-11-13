@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <section id="h1">
+      <div class="logo">
+        <h2><i class="fas fa-shopping-basket"></i> Groco</h2>
+      </div>
+
+      <div class="sb">
+        <input type="text" placeholder="Search here..." />
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </section>
+
+    <section id="h2">
+      <i id="bar" class="fa fa-bars"></i>
+      <div class="menu">
+        <ul id="item">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#products">Product</a></li>
+          <li><a href="#deal">Deal</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="account">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li>
+            <a class="user" href="#"><i class="fas fa-user-circle"></i></a>
+          </li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </div>
+
+      
+    </section>
+
+    <section id="hero">
+      <div class="img" data-aos="fade-up">
+        <img src="images/home-img.png" />
+      </div>
+
+      <div class="text" data-aos="fade-up">
+        <p>Fresh And Organic</p>
+        <h2>Your Daily Need Products</h2>
+        <button class="btn">Get Started</button>
+      </div>
+    </section>
+
+    <section id="banners" data-aos="fade-up">
+      <div class="offer">
+        <img src="images/banner-1.jpg" alt="" />
+        <div class="content">
+          <h1>Special Offer!</h1>
+          <p>Up to <span>20%</span> Off</p>
+          <button class="btn">Check Out</button>
+        </div>
+      </div>
+
+      <div class="offer">
+        <img src="images/banner-2.jpg" alt="" />
+        <div class="content">
+          <h1>Limited Time!</h1>
+          <p>Up to <span>35%</span> Off</p>
+          <button class="btn">Check Out</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="category">
+      <h1>SHOP BY <span>CATEGORY</span></h1>
+      <div class="cat-container" data-aos="fade-up">
+
+        <div class="cat">
+          <h1>Vegetables</h1>
+          <p>Up to<span> 25%</span> Off</p>
+          <img src="images/category-1.png" />
+          <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="cat">
+          <h1>campaign </h1>
+          <p><br></p>
+          <img src="images/category-2.png" />
+          <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="cat">
+          <h1>Meat</h1>
+          <p><br></p>
+          <img src="images/category-3.png" />
+          <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="cat">
+          <h1>Peppers</h1>
+          <p>Up to<span> 35%</span> Off</p>
+          <img src="images/category-4.png" />
+          <button class="btn">Shop Now</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="products">
+        <h1>LATEST <span>PRODUCTS</span></h1>
+        <div class="pro-container" data-aos="fade-up">
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-1.png" alt="">
+                <h2>Banana</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-2.png" alt="">
+                <h2>Tomato</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-3.png" alt="">
+                <h2>orange</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-4.png" alt="">
+                <h2>milk</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-5.png" alt="">
+                <h2>grapes</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-6.png" alt="">
+                <h2>almonds</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-7.png" alt="">
+                <h2>apples</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+
+            <div class="pro">
+                <span class="redu">-33%</span>
+                <img src="images/product-8.png" alt="">
+                <h2>natural butter</h2>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>$10.50 <span>$13.20</span></p>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="1000" value="1">
+                    <p>/Kg</p>
+                </div>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="deal">
+      <div class="content" data-aos="fade-up">
+        <h1>Deal Of The Day</h1>
+        <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam Possimus Voluptates Commodi Laudantium! Doloribus Sint Voluptatibus Quaerat Sequi Suscipit Nulla?</p>
+        <div class="counter">
+          <div class="box">
+            <h3 id="day"></h3>
+            <span>Day</span>
+          </div>
+          <div class="box">
+            <h3 id="hour"></h3>
+            <span>Hour</span>
+          </div>
+          <div class="box">
+            <h3 id="minute"></h3>
+            <span>Minute</span>
+          </div>
+          <div class="box">
+            <h3 id="second"></h3>
+            <span>Second</span>
+          </div>
+        </div>
+        <button class="btn">Check The Deal</button>
+      </div>  
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="form" data-aos="fade-up">
+         <strong> Feel free to <span>ask</span> anything </strong>
+         <input type="text" placeholder="Name">
+         <input type="email" placeholder="Email">
+         <textarea  cols="30" rows="4" placeholder="Message"></textarea>
+         <button class="btn">Send Message</button>
+       </div>
+ 
+      <div class="map" data-aos="fade-up">
+        <strong>Where you can <span>find</span> us</strong>
+        <p><i class="fa fa-map-marker"></i> Nouvelle ville - Constantine, Algerie </p>
+        <div class="line"></div>
+ 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.516055771753!2d6.5704546661450625!3d36.25124829413453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f16553fed4993b%3A0x48585d13581d1aff!2sRitaj%20Mall!5e0!3m2!1sfr!2sdz!4v1667699415426!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+       
+     </section>
+
+     <section id="sub">
+      <h1>Subscribe For Our <span>Lastest Updates!</span></h1>
+      <form>
+        <input type="text" placeholder="Enter Your Email">
+        <button class="btn">Subscribe</button>
+      </form> 
+     </section>
+     
+     <footer>
+
+      <div class="c1">
+        <div class="logo">
+          <h1><i class="fas fa-shopping-basket"></i> Groco</h1>
+        </div>
+        <p>Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Ullam Culpa Sit Enim Nesciunt Rerum Laborum Illum Quam Error Ut Alias!</p>
+
+        <ul>
+          <li><i class="btn fab fa-facebook-f"></i></li>
+          <li><i class="btn fab fa-twitter"></i></li>
+          <li><i class="btn fab fa-instagram"></i></li>
+          <li><i class="btn fab fa-linkedin"></i></li>
+        </ul>
+      </div>
+
+      <div class="c2">
+        <ul>
+          <li><h1>Our Location</h1></li>
+          <li>Algeria</li>
+          <li>Morroco</li>
+          <li>Tunisia</li>
+          <li>France</li>
+          <li>Libya</li>
+        </ul>
+      </div>
+
+      <div class="c3">
+        <ul>
+          <li><h1>Quick Links</h1></li>
+          <li>Home</li>
+          <li>Category</li>
+          <li>Product</li>
+          <li>Deal</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div class="c4">
+        <ul>
+          <li><h1>Download Our App</h1></li>
+          <li>Google Play</li>
+          <li>App Store</li>
+          <li>Windows</li>
+        </ul>
+      </div>
+
+     </footer>
+
+     <section id="cr">
+        <h1 class="credit"> created by <span> Lezzar Rami </span> | all rights reserved! </h1>
+      </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1200,
+    });
+  </script>
+  </body>
+</html>
