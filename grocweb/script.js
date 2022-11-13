@@ -1,4 +1,4 @@
-let countDate = new Date('november 15, 2022 00:00:00').getTime();
+let countDate = new Date('november 20, 2022 00:00:00').getTime();
 function CountDown(){
 
     let now = new Date().getTime();
@@ -29,6 +29,7 @@ setInterval(function(){
 
 var menu = document.getElementById("bar");
 var item = document.getElementById("item");
+let h2 = document.querySelector('#h2');
 
 item.style.left ='-300px';
 
@@ -41,4 +42,9 @@ else {
     item.style.left ='-300px'
 }
 
+}
+
+
+window.onscroll = () =>{
+    item.style.left ='-300px';
 }
