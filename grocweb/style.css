@@ -805,6 +805,16 @@ footer .c1 .logo i{
         width: 100%;
     }
 
+    #h2 .menu  li a {
+        margin: 18px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .contact .form {
+        margin-bottom: 3rem;
+    }
+
 }
     
 @media screen and (max-width: 496px) {
@@ -838,6 +848,22 @@ footer .c1 .logo i{
     #deal button {
         padding: 0.5rem;
     }
+
+    #h2 .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        height: 70vh;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        background-color: rgba(201, 201, 201, 0.8);
+        z-index: 10000000;
+        margin-top: 13.8rem;
+    }
+
+
 }
 
 
